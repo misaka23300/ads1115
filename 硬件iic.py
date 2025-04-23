@@ -64,7 +64,7 @@ while True:
         voltage = raw_value * 6.144 / 32768.0  # 转换为电压值
         
         # 打印结果（保留3位小数）
-        print("原始值: {:6d} | 电压: {:.3f} V".format(raw_value, voltage))
+        print("原始值: {:6d} | 电压: {:.4f} V".format(raw_value, voltage))
     except:
         print()
     
